@@ -1,0 +1,19 @@
+
+.form{
+    margin: 10px 0;
+}
+
+form label{
+    margin-top: 70px;
+    display: block;
+    font-size: 20px;
+    margin:0 10x;
+    text-shadow: lightblue 0.1em 0.1em 0.2em;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px 0;
+    padding: 10px 25px;
+    width: 50%;
+}
