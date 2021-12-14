@@ -9,49 +9,42 @@
     <link rel="stylesheet" href="css/quem_somos.css" />
     <link rel="stylesheet" href="css/reser.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contato.css" />
 </head>
 
 <body>
     <header class="menu">
-        <p>
         <nav>
             <ul>
-                <li class="item_menu"><a class=link_menu href="quem_somos.html" target="_blank">Quem somos?</a></li>
-                <li class="item_menu"><a class=link_menu href="contato.html" target="_blank">Contato</a></li>
-                <li class="item_menu"><a class=link_menu href="discussao.html" target="_blank">Discussão</a></li>
+                <li class="item_menu"><a class=link_menu href="discussao.html">Discussão</a></li>
+                <li class="item_menu"><a class=link_menu href="quem_somos.html">Quem somos?</a></li>
+                <li class="item_menu"><a class=link_menu href="contato.html">Contato</a></li>
+
             </ul>
         </nav>
-        </p>
-        <header>
+    </header>
 
-            <main class="principal">
-                <div>
-                    <form action="arquivoQueReceberaOsDados.js" method="POST">
-                        <label for="nomesobrenome">Nome e Sobrenome</label>
-                        <input class="input-padrao" type="text" id="nomesobrenome" required placeholder="Seu nome">
+    <main class="principal">
+        <div class="formulario">
+            <form>
+                <label for="nomecompleto">Nome completo:</label>
+                <input class="input-padrao" type="text" id="nomecompleto" required placeholder="Nome Sobrenome">
 
-                        <label for="email">Email</label>
-                        <input class="input-padrao" type="text" id="email" required placeholder="seuemail@dominio.com">
+                <label for="email">e-mail:</label>
+                <input class="input-padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
 
-                        <label for="telefone">Telefone</label>
-                        <input class="input-padrao" type="text" id="telefone" required placeholder="(xx) xxxxx-xxxx">
+                <label for="">Mensagem:</label>
+                <textarea class="input-padrao" name="mensagem" id="Mensagem" cols="40" rows="10"></textarea required>
 
-                        <label for="mensagem">Mensagem</label>
-                        <textarea class="input-padrao" type="text" id="mensagem" cols="70" rows="10" required
-                            placeholder="Qual a sua duvida?" required></textarea>
+                <input class="input-padrao" type="submit" value="Enviar mensagem" required>
+            </form>
+        </div>
+    </main>
 
-                        <input type="submit" value="Enviar formulário">
-                    </form>
-                </div>
-            </main>
-
-
-            <footer class="rodape">
-                <nav>
-                    <a href="https://ifms.edu.br/campi/campus-campo-grande" target=_blank>@IFMS</a> - Desenvolvimento
-                    Web 1 - 2021.2
-                </nav>
-            </footer>
+    <footer class="rodape">
+        <a href="https://ifms.edu.br/campi/campus-campo-grande" target=_blank>@IFMS</a> - Desenvolvimento
+        Web 1 - 2021.2
+    </footer>
 </body>
 
 </html>

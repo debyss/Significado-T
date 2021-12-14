@@ -1,0 +1,43 @@
+.principal h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-color: white;
+    width: 60%;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 6px;
+}
+
+.principal div{
+    text-indent: 40px;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top: 1%;
+    font-size: 25px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 90%;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 6px;
+    text-shadow: lightpink 0.1em 0.1em 0.2em;
+    box-shadow: 4px 4px #88d2ec;
+    margin-bottom: 3.5%;
+}
+
+ul li{
+    text-decoration: none;
+    text-align: justify;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+@media screen and (max-width: 768px){
+ul li{
+    margin: 2.5% 2% 2.5%;
+}
+}

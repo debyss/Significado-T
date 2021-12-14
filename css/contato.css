@@ -1,19 +1,48 @@
+.principal{
+    height: 100%;
+}
 
-.form{
-    margin: 10px 0;
+.formulario{
+    margin: 8% auto;
+    margin-bottom: 4%;
+    background-color: white;
+    width: 60%;
+    height: 68%;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 10px;
+    box-shadow: 13px 13px #88d2ec;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: 100%;
+    margin-left: 2%;
 }
 
 form label{
-    margin-top: 70px;
-    display: block;
-    font-size: 20px;
-    margin:0 10x;
-    text-shadow: lightblue 0.1em 0.1em 0.2em;
+    background-color: white;
+    margin-top: 3%;
+    font-size: 140%;
+    text-align: justify;
+}
+.input-padrao{
+    background-color: rgb(245, 252, 255);
 }
 
-.input-padrao{
-    display: block;
-    margin: 0 0 20px 0;
-    padding: 10px 25px;
-    width: 50%;
+#nomecompleto, #email{
+    height: 5%;
 }
+
+@media screen and (max-width: 768px){
+    .principal{
+        height: 76vh;
+    }
+    .formulario{
+        margin-top: 15%;
+        width: 100%;
+        height: 75%;
+    }
+}
+

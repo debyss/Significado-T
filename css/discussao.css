@@ -1,51 +1,250 @@
-#materia{
-    margin-top: 70px;
-    text-align: left;
+/* principal */
+.principal{
+    height: 100%;
+    margin-bottom: 3%;
+}
+.principal div{
+    text-indent: 40px;
+    margin-left: 5%;
+    margin-right: 4%;
+    margin-top: 1%;
     font-size: 25px;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.677);
+    width: 90%;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 6px;
+    text-shadow: lightpink 0.1em 0.1em 0.2em;
+    box-shadow: 4px 4px #88d2ec;
+}
+
+.principal h1{
     font-weight: bold;
-}
-
-#alunas{
-    text-align: left;
-    font-size: 25px;
-}
-
-#h1{
-    margin-top: 40px;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    font-weight: bold;
-    height: 100px;
-    right: 300px;
+    margin-left: 20%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    background-color: white;
+    width: 60%;
+    border-color: purple;
+    border-style: dotted;
+    border-width: 6px;
 }
 
-#assunto{
-    margin-top: 30px;
-    margin-bottom: 30px;
+div h2{
+    font-weight: bold;
+    text-align: center;
     font-size: 30px;
-    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.principal p, u{
+    margin: 2% 2% 2% 2%;
+}
+
+.introducao u{    
+    display: inline;
+} 
+ 
+.introducao{
+    margin-left: 15%;
+    margin-right: 4%;
+}
+
+#foto1{
+    width: 15%;
+    float: left;
+    margin-left: 0%;
+    border-radius: 40%;
+    margin: 2% 2% 2% 2%;
+    border-radius: 2%;
+    box-shadow: 10px 10px lightpink
+}
+
+#foto1:hover{
+    width: 15.5%;
+}
+
+#foto2{
+    float: left;
+    width: 40%;
+    border-radius: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 2%;
+    box-shadow: 10px 10px lightpink
+}
+#foto2:hover{
+    width: 45%;
+}
+
+.lista{
+    text-decoration: none;
+    list-style-type: none;
+    display: inline;
+}
+
+.lista_img{
+    float: left;
+    width: 18%;
+    border-radius: 6%;
+    margin: 0% 2% 1% 2%;
+    border-style:groove;
+    border-color: purple;
+    border-width: 3px;
+    box-shadow: 6px 6px lightpink;
+}
+
+.lista_img:hover{
+    width: 19%;
+}
+
+.lista li{
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color: rgba(173, 216, 230, 0.492);
+    border-style:groove;
+    border-color: rgb(59, 57, 59);
+    border-width: 3px;
+    border-radius: 2%;
+}
+
+.lista h3{
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 2%;
+    font-size: 28px;
     font-weight: bold;
 }
 
-#lista{
-    font-size: 25px;
-    text-align: left;
+.foto3{
+    width: 25%;
+    float: right;
+    margin: 2% 2% 2% 2%;
+    border-radius: 2%;
+    box-shadow: 10px 10px lightpink
 }
 
-#subtitulo1{
-    
+.foto3:hover{
+    width: 25.5%;
 }
 
-.introducao{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 25px;
+.foto4{
+    float: left;
+    width: 36%;
+    margin: 2% 2% 2% 2%;
+    border-radius: 6%;
+    box-shadow: 10px 10px lightpink
 }
-.texto1{
-    font-size: 20px;
+
+.foto4:hover{
+    width: 38%;
+}
+
+#video{
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.link_bibliografia{
+    margin-bottom: 6%;
+    margin-left: 30%;
+    text-align: center;
+    background-color: lightblue;
+    width: 100%;
+    text-decoration: none;
+    border-color: purple;
+    border-style: solid;
+    border-width: 3px;    
 }
 
 @media screen and (max-width: 768px){
-    
+
+.principal{
+    height: 100%;
+    margin-bottom: 10%;
+}
+
+.principal h1{
+    width: 80%;
+    margin-left: 13%;
+}
+
+.principal div{
+    width: 98%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 4%;
+}
+
+div h2{
+}
+
+.principal p, u{
+}
+
+.introducao u{
+    width: 50%;
+    clear: right;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+#foto1{
+    width: 50%;
+    margin-bottom: 0%;
+    margin-right: 4%;
+    border-radius: 100%;
+    box-shadow: 6px 6px lightpink
+}
+
+#foto2{
+    width: 95%;
+    margin-bottom: 3%;
+    box-shadow: 6px 6px lightpink
+}
+
+.lista_img{
+    width: 85%;
+    margin-left: 6%;
+    margin-bottom: 3%;
+}
+
+.lista li{
+    margin-top: 2%;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.lista h3{
+   margin-right: 8%;
+}
+
+.foto3{
+    width: 80%;
+    margin-right: 10%;
+    box-shadow: 6px 6px lightpink
+}
+
+.foto4{
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 6px 6px lightpink
+}
+#video{
+    width: 95%;
+    margin-left: 2.5%;
+}
+.link_bibliografia{
+    margin-left: 0;
+    font-size: 22.5px;
+}
 }
 
